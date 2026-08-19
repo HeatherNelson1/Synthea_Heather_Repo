@@ -1,4 +1,5 @@
 # Synthea_Heather_Repo
+Bronze layer: raw Synthea CSV exports loaded directly into Databricks (no transformation)
 Learning Databricks with Synthea
 # Synthetic Healthcare Data Pipeline (Databricks + Delta Lake)
 

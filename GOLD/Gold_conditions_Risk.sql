@@ -1,4 +1,7 @@
 %sql
+ /*8/18/26 hmn 2000 needs update to remove unnecessarylines (retain gold only)*/
+
+
 --PATIENTS
 CREATE OR REPLACE TABLE workspace.default.silver_patients AS
 SELECT
@@ -84,5 +87,5 @@ GROUP BY
 
   SELECT * FROM workspace.default.gold_encounter_complexity;
   
- /*trival edit--testing git*/
+
 
